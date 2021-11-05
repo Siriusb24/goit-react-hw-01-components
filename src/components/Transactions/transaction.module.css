@@ -1,0 +1,34 @@
+.transaction {
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid rgb(128, 128, 128);
+  width: 640px;
+  height: 100%;
+  border-radius: 5px;
+  border-spacing: 0px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.head {
+  width: 80px;
+  height: 50px;
+  color: rgb(93, 104, 102);
+  background-color: rgb(20, 233, 204);
+}
+
+.bodyTable {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(48, 226, 217);
+}
+
+.bodyTable:nth-child(2n-1) {
+  background-color: rgb(4, 160, 160);
+}
+
+.value {
+  color: rgb(4, 8, 66);
+  text-align: center;
+  font-size: 16px;
+}
